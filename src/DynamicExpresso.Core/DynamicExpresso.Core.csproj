@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net461;net45</TargetFrameworks>
+    <TargetFrameworks>net461</TargetFrameworks>
     <RootNamespace>DynamicExpresso</RootNamespace>
 
     <Authors>Davide Icardi</Authors>
