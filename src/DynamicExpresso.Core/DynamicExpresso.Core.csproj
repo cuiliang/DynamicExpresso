@@ -20,6 +20,16 @@
     <VersionSuffix></VersionSuffix>
   </PropertyGroup>
 
+  <PropertyGroup>
+		<PackageId>Quicker.DynamicExpresso.StrongName</PackageId>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<SignAssembly>true</SignAssembly>
+		<AssemblyOriginatorKeyFile>d:\cert\cert2022\quicker.snk</AssemblyOriginatorKeyFile>
+    <EnableSourceLink>true</EnableSourceLink>
+	</PropertyGroup>
+
   <ItemGroup Condition=" $(TargetFramework.StartsWith('netstandard2')) ">
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
